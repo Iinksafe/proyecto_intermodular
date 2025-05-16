@@ -13,10 +13,6 @@
     h2 { color: #005f73; }
     footer { background: #005f73; color: white; text-align: center; padding: 15px; }
   </style>
-  <script>
-    let footer = document.getElementById('footer');
-    footer.textContent = footer.textContent.replaceAll('%s', new Date().getFullYear());
-  </script>
 </head>
 <body>
 
@@ -83,6 +79,10 @@
   <footer>
     <p id='footer'>© %s Mariscos del Norte - Proyecto Intermodular</p>
   </footer>
-
+  
+  <script>
+    let footer = document.getElementById('footer');
+    footer.textContent = footer.textContent.replaceAll('%s', new Date().getFullYear());
+  </script>
 </body>
 </html>
