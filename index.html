@@ -1,29 +1,84 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>Proyecto Intermodular</title>
-    <style>
-      body { background-color: #000000 }
-      * {
-        color: #00ff00;
-        font-family: 'Courier New', Courier, monospace;
-      }
-    </style>
-  </head>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Proyecto SMR - Mariscos del Norte</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; background: #f9f9f9; }
+    header { background: #005f73; color: white; padding: 20px; text-align: center; }
+    nav { background: #0a9396; padding: 10px; text-align: center; }
+    nav a { color: white; margin: 0 15px; text-decoration: none; font-weight: bold; }
+    section { padding: 20px; max-width: 1000px; margin: auto; }
+    h2 { color: #005f73; }
+    footer { background: #005f73; color: white; text-align: center; padding: 15px; }
+  </style>
+</head>
+<body>
 
-  <body>
-    <h1>Bienvenido a nuestra página web.</h1>
-    
-    <hr />
-    
-    <center>
-      Creado por
-      Javier
-      y
-      David Fernández Alfageme.
-      <br />
-      Diseño de página web por
-      David Fernández Alfageme.
-    </center>
-  </body>
+  <header>
+    <h1>Proyecto Intermodular SMR</h1>
+    <p>Modernización tecnológica para Mariscos del Norte</p>
+  </header>
+
+  <nav>
+    <a href="#objetivos">Objetivos</a>
+    <a href="#inventario">Inventario</a>
+    <a href="#montaje">Montaje</a>
+    <a href="#red">Red</a>
+    <a href="#monitoreo">Monitoreo</a>
+    <a href="#documentacion">Documentación</a>
+    <a href="#contacto">Contacto</a>
+  </nav>
+
+  <section id="objetivos">
+    <h2>Objetivos del Proyecto</h2>
+    <p>Actualizar la infraestructura informática de Mariscos del Norte, con instalación de equipos, configuración de red, almacenamiento NAS, seguridad y monitoreo ambiental con ESP32.</p>
+  </section>
+
+  <section id="inventario">
+    <h2>Inventario y Presupuesto</h2>
+    <ul>
+      <li>10 ordenadores de escritorio (Windows/Linux)</li>
+      <li>1 NAS Synology/QNAP</li>
+      <li>Switch, cableado estructurado, racks</li>
+      <li>ESP32 + sensores DHT11/DHT22</li>
+    </ul>
+  </section>
+
+  <section id="montaje">
+    <h2>Montaje y Configuración</h2>
+    <p>Los ordenadores se han preparado con arranque dual (Windows 10 y Linux), y se han configurado los usuarios, permisos, carpetas compartidas y accesos al NAS.</p>
+  </section>
+
+  <section id="red">
+    <h2>Red y Seguridad</h2>
+    <p>Se ha diseñado una topología en estrella, con IPs fijas, configuración de cortafuegos y antivirus. Se han aplicado políticas de contraseñas seguras.</p>
+  </section>
+
+  <section id="monitoreo">
+    <h2>Monitoreo Ambiental</h2>
+    <p>Se han implementado sensores DHT22 conectados al ESP32 para monitorizar temperatura y humedad. Los datos se visualizan en una web local.</p>
+  </section>
+
+  <section id="documentacion">
+    <h2>Documentación</h2>
+    <p>Accede a los manuales, informes técnicos, configuraciones y planes de mantenimiento.</p>
+    <ul>
+      <li><a href="docs/manual-usuario.pdf" target="_blank">Manual de usuario</a></li>
+      <li><a href="docs/informe-montaje.pdf" target="_blank">Informe de montaje</a></li>
+    </ul>
+  </section>
+
+  <section id="contacto">
+    <h2>Contacto</h2>
+    <p>Proyecto desarrollado por: [Nombre del grupo]</p>
+    <p>Email: proyecto@mariscosnorte.local</p>
+  </section>
+
+  <footer>
+    <p>© 2025 Mariscos del Norte - Proyecto SMR</p>
+  </footer>
+
+</body>
 </html>
